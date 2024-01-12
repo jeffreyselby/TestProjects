@@ -1,0 +1,12 @@
+C:\TestProjects\TestClassLibrary\bin\Debug\net8.0\TestClassLibrary.deps.json
+C:\TestProjects\TestClassLibrary\bin\Debug\net8.0\TestClassLibrary.dll
+C:\TestProjects\TestClassLibrary\bin\Debug\net8.0\TestClassLibrary.pdb
+C:\TestProjects\TestClassLibrary\obj\Debug\net8.0\TestClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\TestProjects\TestClassLibrary\obj\Debug\net8.0\TestClassLibrary.AssemblyInfoInputs.cache
+C:\TestProjects\TestClassLibrary\obj\Debug\net8.0\TestClassLibrary.AssemblyInfo.cs
+C:\TestProjects\TestClassLibrary\obj\Debug\net8.0\TestClassLibrary.csproj.CoreCompileInputs.cache
+C:\TestProjects\TestClassLibrary\obj\Debug\net8.0\TestClassLibrary.dll
+C:\TestProjects\TestClassLibrary\obj\Debug\net8.0\refint\TestClassLibrary.dll
+C:\TestProjects\TestClassLibrary\obj\Debug\net8.0\TestClassLibrary.pdb
+C:\TestProjects\TestClassLibrary\obj\Debug\net8.0\ref\TestClassLibrary.dll
+C:\TestProjects\TestClassLibrary\obj\Debug\net8.0\TestClassLibrary.csproj.AssemblyReference.cache
