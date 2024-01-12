@@ -12,6 +12,7 @@ namespace TestClassLibrary
     {
         public DataTable ReadPerson()
         {
+            // Read table dbo.Person from Azure SQL Server
             DataTable dataTable = new DataTable();
 
             string connectionString = "Server=tcp:softserver.database.windows.net,1433;Initial Catalog=TestDatabase;Persist Security Info=False;User ID=SqlAdmin;Password=Charles5;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
