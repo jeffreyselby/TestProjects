@@ -30,7 +30,7 @@ steps:
     restoreSolution: '$(solution)'
 
 - task: VSBuild@1
-  displayName: 'Build XUnitTestProject'
+  displayName: 'Build TestClassLibrary and XUnitTestProject projects'
   inputs:
     solution: 'XUnitTestProject/*.sln'
     msbuildArgs: '/p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:DesktopBuildPackageLocation="$(build.artifactStagingDirectory)\WebApp.zip" /p:DeployIisAppPath="Default Web Site"'
@@ -48,6 +48,7 @@ steps:
     packageType: sdk
 
 - task: DotNetCoreCLI@2
+  displayName: 'Build TestClassLibrary and XUnitTestProject projects'
   inputs:
     command: 'restore'
     projects: 'XUnitTestProject/XUnitTestProject.csproj'
