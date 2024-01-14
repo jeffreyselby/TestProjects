@@ -10,7 +10,7 @@ resources:
   repositories:
   - repository: MyGitHubRepo
     type: github
-    endpoint: name_of_service_connection_you_created
+    endpoint: jeffreyselby
     name: jeffreyselby/TestProjects
     ref: master
 
