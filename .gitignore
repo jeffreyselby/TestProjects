@@ -2,7 +2,7 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/XUnitTestProject/.vs
-/.vs/TestProjects
-/TestClassLibrary/obj
-/XUnitTestProject/obj
+# Ignore specific folders
+**/.vs/
+**/obj/
+**/bin/
