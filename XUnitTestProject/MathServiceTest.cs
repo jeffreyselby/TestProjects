@@ -15,17 +15,17 @@ namespace XUnitTestProject
         }
 
         [Theory]
-        [InlineData(-1)]
-        [InlineData(0)]
-        [InlineData(1)]
-        [InlineData(3)]
-        public void TestIsPrimeWithTheory(int value)
+        [InlineData(-1, false)]
+        [InlineData(0, false)]
+        [InlineData(1, false)]
+        [InlineData(3, true)]
+        public void TestIsPrimeWithTheory(int value, bool expectedResult)
         {
             var mathService = new MathService();
 
-            bool result = mathService.IsPrime(value);
+            bool actualResult = mathService.IsPrime(value);
 
-            Assert.False(result, "1 should not be prime");
+            Assert.Equal(actualResult, expectedResult);
         }
 
         [Fact]

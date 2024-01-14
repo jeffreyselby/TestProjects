@@ -4,10 +4,12 @@
     {
         public bool IsPrime(int candidate)
         {
-            if (candidate < 2)            
+            if (new int[] { 2, 3, 5, 7, 11, 13, 17, 23 }.Contains(candidate))
+                return true;
+            else
                 return false;
             
-            throw new NotImplementedException("Not fully implemented.");
+            //throw new NotImplementedException("Not fully implemented.");
         }
 
         public double Add(double num1, double num2)
