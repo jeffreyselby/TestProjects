@@ -42,15 +42,8 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
-- task: UseDotNet@2
-  inputs:
-    version: 3.1.x
-    packageType: sdk
-
-- task: DotNetCoreCLI@2
+- task: VSTest@2
   displayName: 'Run tests in XUnitTestProject projects'
   inputs:
-    command: 'restore'
-    projects: 'XUnitTestProject/XUnitTestProject.csproj'
-
-
+    testAssemblyVer2: '**\XUnitTestProject.dll'
+    searchFolder: '$(System.DefaultWorkingDirectory)'
