@@ -45,5 +45,8 @@ steps:
 - task: VSTest@2
   displayName: 'Run tests in XUnitTestProject projects'
   inputs:
-    testAssemblyVer2: '**\XUnitTestProject.dll'
+    testAssemblyVer2: |
+      **\XUnitTestProject.dll
+      !**\obj\**
+      !**\bin\**\ref\**
     searchFolder: '$(System.DefaultWorkingDirectory)'
