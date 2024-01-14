@@ -48,7 +48,7 @@ steps:
     packageType: sdk
 
 - task: DotNetCoreCLI@2
-  displayName: 'Build TestClassLibrary and XUnitTestProject projects'
+  displayName: 'Run tests in XUnitTestProject projects'
   inputs:
     command: 'restore'
     projects: 'XUnitTestProject/XUnitTestProject.csproj'
