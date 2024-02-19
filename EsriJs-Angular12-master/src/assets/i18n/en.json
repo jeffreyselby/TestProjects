@@ -1,0 +1,36 @@
+{
+    "application": {
+        "title": "titulo aplicación",
+        "subtitle": "subtitulo aplicación"
+    },
+    "menu": {
+        "inicio": {
+            "text": "Inicio",
+            "title": "Primera opción de menú"
+        },
+        "menu1": {
+            "text": "Menú 1",
+            "title": "Primera opción de menú"
+        },
+        "menu2": {
+            "text": "Menú 2",
+            "title": "Primera opción de menú"
+        },
+        "first": {
+            "text": "Primera",
+            "title": "Primera opción de menú"
+        },
+        "second": {
+            "text": "Segunda",
+            "title": "Primera opción de menú"
+        },
+        "third": {
+            "text": "Tercera",
+            "title": "Primera opción de menú"
+        },
+        "fourth": {
+            "text": "Cuarta",
+            "title": "Primera opción de menú"
+        }
+    }
+}

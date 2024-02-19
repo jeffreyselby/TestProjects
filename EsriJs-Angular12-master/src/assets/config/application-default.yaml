@@ -1,0 +1,41 @@
+---
+template:
+  links:
+    municipios:
+      path: catalogos/municipios
+      icon: location_city
+      roles:
+        - admin
+    tipovia:
+      path: catalogos/tipovia
+      icon: table_view
+      roles:
+        - admin
+    listado-ots:
+      path: listado-ots/listado-ots
+      icon: topic
+      roles:
+        - admin
+    visor:
+      path: visor/visor
+      icon: topic
+      roles:
+        - admin
+  menu:
+    options:
+      catalog:
+        icon: iconsdfdfsadmin
+        links:
+          - municipios
+          - tipovia
+          - listado-ots
+          - visor
+  cards:
+    - municipios
+    - tipovia
+    - listado-ots
+    - visor
+security:
+  enabled: true
+siginter4clientweb:
+  property1: "custom property"

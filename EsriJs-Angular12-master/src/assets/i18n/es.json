@@ -1,0 +1,37 @@
+{
+  "application": {
+    "title": "Cliente Web SIGINTER",
+    "titleLine1": "Cliente Web",
+    "titleLine2": "SIGINTER",
+    "description": "Cliente Web SIGINTER"
+  },
+  "menu": {
+    "inicio": {
+      "text": "Inicio"
+    },
+    "admin": {
+      "text": "Admin"
+    },
+    "catalog": {
+      "text": "Catálogos"
+    }
+  },
+  "links": {
+    "municipios": {
+      "text": "Municipios",
+      "title": "Catálogo de Municipios"
+    },
+    "tipovia": {
+      "text": "Tipo Vía",
+      "title": "Catálogo de tipos vías"
+    },
+    "listado-ots": {
+      "text": "Listado de OTs",
+      "title": "Listado de OTs"
+    },
+    "visor": {
+      "text": "Acceder al visor",
+      "title": "Acceder al visor"
+    }
+  }
+}

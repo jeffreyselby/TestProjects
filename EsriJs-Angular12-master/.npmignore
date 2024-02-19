@@ -1,0 +1,8 @@
+.*
+!.browserlistrc
+!.editorconfig
+!.gitignore
+!.gitlab
+dist
+node_modules
+package-lock.json

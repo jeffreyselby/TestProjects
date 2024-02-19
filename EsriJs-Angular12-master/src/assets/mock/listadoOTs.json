@@ -1,0 +1,20 @@
+{
+  "ordenDeTrabajo": [
+    {
+      "codPlanificacion": 76,
+      "nombrePlanificacion": "Planificación CST GANADERIA_CN_Campaña 2021",
+      "codigo": 12258,
+      "nombre": "OT_GANACN_2021_PRUEBA_GU_1",
+      "numObjetos": 2,
+      "numLotes": 1
+    },
+    {
+      "codPlanificacion": 76,
+      "nombrePlanificacion": "Planificación CST GANADERIA_CN_Campaña 2021",
+      "codigo": 12257,
+      "nombre": "OT_GANACN_2021_CIB_CR_1",
+      "numObjetos": 6,
+      "numLotes": 1
+    }
+  ]
+}

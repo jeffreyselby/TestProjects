@@ -1,9 +1,44 @@
+using System.Collections;
+using System.Diagnostics;
+using System.Net.Security;
 using TestClassLibrary;
 
 namespace XUnitTestProject
 {
+    
+
     public class MathServiceTest
     {
+        
+
+        [Fact]
+        public void DeleteMe()
+        {
+            var list = new List<int> { 1, 2, 5, 5 };
+
+            var j = list.FirstOrDefault(x => x == 2);
+
+
+
+
+            //int x = 3;
+
+            //int Sixteen = 0b0001_0000;
+            //Debug.WriteLine(Sixteen);
+
+
+            Debug.WriteLine(Convert.ToInt32('A'));
+
+            float f = 10.12f;
+            long l = 200L;
+
+            Debug.WriteLine(f+l);
+
+            var i = 3;
+
+
+        }
+
         [Fact]
         public void TestIsPrimeWithFact()
         {
