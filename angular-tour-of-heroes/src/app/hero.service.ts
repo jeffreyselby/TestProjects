@@ -10,9 +10,12 @@ import { MessageService } from './message.service';
 @Injectable({
   providedIn: 'root'
 })
+/*Relies on in-memory-data.service.ts*/
 export class HeroService {
-
-  private heroesUrl = 'api/heroes'; // URL to web api
+  
+  // URL to web api which is contained in "in-memory-data.service.ts".
+  // "api" is standard start of address and "heroes" refers to constant in "in-memory-data.service.ts"
+  private heroesUrl = 'api/heroes'; 
   private httpOptions = {
     headers: new HttpHeaders({'Content-Type': 'application/json'})
   };

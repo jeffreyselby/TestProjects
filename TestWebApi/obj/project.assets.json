@@ -8,23 +8,24 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\jeffrey\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\jeffr\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\TestProjects\\TestWebApi\\TestWebApi.csproj",
+      "projectUniqueName": "C:\\TestGitHub\\TestProjects\\TestWebApi\\TestWebApi.csproj",
       "projectName": "TestWebApi",
-      "projectPath": "C:\\TestProjects\\TestWebApi\\TestWebApi.csproj",
-      "packagesPath": "C:\\Users\\jeffrey\\.nuget\\packages\\",
-      "outputPath": "C:\\TestProjects\\TestWebApi\\obj\\",
+      "projectPath": "C:\\TestGitHub\\TestProjects\\TestWebApi\\TestWebApi.csproj",
+      "packagesPath": "C:\\Users\\jeffr\\.nuget\\packages\\",
+      "outputPath": "C:\\TestGitHub\\TestProjects\\TestWebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\jeffrey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jeffr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -44,6 +45,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -68,7 +74,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

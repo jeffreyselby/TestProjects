@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RlgVTcsH5p9+WN7TA9+wLredPKJucGedSCv464q925vDDXnTh2r6QHeExPpsG36fHUxZY9ZYdcVAUmw7PvmIdA==",
+  "dgSpecHash": "hc9lGVsKeABjoc3QAJcJKxuLTG0RropeuJHxUTcTo0Zy8wREZsa3fylvSVdAUw94PfM/5GLxmdhNGfgbRkZF5A==",
   "success": true,
-  "projectFilePath": "C:\\TestProjects\\TestWebApi\\TestWebApi.csproj",
+  "projectFilePath": "C:\\TestGitHub\\TestProjects\\TestWebApi\\TestWebApi.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,0 +1,76 @@
+{
+  "expenses": [
+    {
+      "id": "2",
+      "item": "Pizza",
+      "amount": "15.36",
+      "category": "Food",
+      "location": "KFC",
+      "spendOn": "2022-12-31T00:00:00Z",
+      "createdOn": "2024-02-28T14:46:27.957Z"
+    },
+    {
+      "id": "3",
+      "item": "Pizza",
+      "amount": 12.15,
+      "category": "Food",
+      "location": "Mcdonald",
+      "spendOn": "2022-10-31T00:00:00Z",
+      "createdOn": "2022-10-31T00:00:00Z"
+    },
+    {
+      "id": "4",
+      "item": "Pizza",
+      "amount": 20.5,
+      "category": "Food",
+      "location": "KFC",
+      "spendOn": "2022-10-31T00:00:00Z",
+      "createdOn": "2022-10-31T00:00:00Z"
+    },
+    {
+      "id": "5",
+      "item": "Pizza",
+      "amount": 50.25,
+      "category": "Food",
+      "location": "KFC",
+      "spendOn": "2022-10-31T00:00:00Z",
+      "createdOn": "2022-10-31T00:00:00Z"
+    },
+    {
+      "id": "6",
+      "item": "Pizza",
+      "amount": 14.55,
+      "category": "Food",
+      "location": "Pizza Hut",
+      "spendOn": "2022-10-31T00:00:00Z",
+      "createdOn": "2022-10-31T00:00:00Z"
+    },
+    {
+      "id": "7",
+      "item": "Steak",
+      "amount": 27,
+      "category": "Food",
+      "location": "Pizza Hut Express",
+      "spendOn": "2022-10-31T00:00:00Z",
+      "createdOn": "2022-10-31T00:00:00Z"
+    },
+    {
+      "id": "8",
+      "item": "Steak",
+      "amount": 28,
+      "category": "Food",
+      "location": "Pizza Hut Express",
+      "spendOn": "2022-10-31T00:00:00Z",
+      "createdOn": "2022-10-31T00:00:00Z"
+    },
+    {
+      "id": "9",
+      "item": "Steak",
+      "amount": 40,
+      "category": "Food",
+      "location": "Pizza Hut Express Now",
+      "spendOn": "2022-10-31T00:00:00Z",
+      "createdOn": "2024-02-28T17:26:30.365Z"
+    }
+  ]
+}

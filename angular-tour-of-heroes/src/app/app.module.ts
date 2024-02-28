@@ -38,4 +38,11 @@ import { HeroFormComponent } from './hero-form/hero-form.component';
   ],
   bootstrap: [AppComponent]
 })
+
+/*
+Application start:
+    angular.json references main.ts and index.html
+    which bootstraps AppModule
+    which in turn bootstraps AppComponent and references AppRoutingModel.
+*/
 export class AppModule { }

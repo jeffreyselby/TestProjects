@@ -1,0 +1,1 @@
+Uses API keys for authentication (Middleware or Attribute)

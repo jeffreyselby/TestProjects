@@ -9,6 +9,8 @@ export class HousingService {
   
   readonly baseUrl = 'https://angular.io/assets/images/tutorials/faa';
 
+  // NOTE: Under folder first-app you must run the following command to start the data service.
+  //    json-server --watch db.json
   url = 'http://localhost:3000/locations';
 
   //constructor() { }
